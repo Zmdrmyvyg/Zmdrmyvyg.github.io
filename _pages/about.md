@@ -39,8 +39,7 @@ My interests lie at the intersection of **robot learning, imitation learning, an
   width: 61%;
   min-height: 28.1rem;
   padding: 1rem 1.15rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.35rem;
+  border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
