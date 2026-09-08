@@ -8,10 +8,7 @@ profile:
   align: right
   image: IMG_2404.jpg
   image_circular: false
-  more_info: >
-    <p>GRASP Laboratory</p>
-    <p>University of Pennsylvania</p>
-    <p>Philadelphia, PA</p>
+  more_info:
 
 selected_papers: false
 social: true
@@ -30,3 +27,42 @@ latest_posts:
 I am an M.S.E. student in Robotics at the University of Pennsylvania, where I am working with [Prof. Nadia Figueroa](https://nbfigueroa.github.io/) in the [Figueroa Robotics Lab](https://figueroa.seas.upenn.edu/), part of the GRASP Laboratory. Prior to Penn, I received my B.E. in Artificial Intelligence from Tongji University.
 
 My interests lie at the intersection of **robot learning, imitation learning, and motion planning**. I am particularly interested in making learned robot policies reliable and adaptable when they encounter previously unseen constraints.
+
+<style>
+.selected-work-home { clear: both; padding-top: 1.4rem; }
+.selected-work-home h2 { font-size: 1.25rem; margin-bottom: 0.25rem; }
+.selected-work-home .section-rule { border-top: 1px solid var(--global-divider-color); margin-bottom: 0.35rem; }
+.selected-work-home .work-item { padding: 0.65rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.selected-work-home .work-title { font-size: 0.98rem; font-weight: 650; line-height: 1.35; margin-bottom: 0.12rem; }
+.selected-work-home .work-meta { color: var(--global-text-color-light); font-size: 0.78rem; line-height: 1.45; margin-bottom: 0.12rem; }
+.selected-work-home .work-desc { font-size: 0.84rem; line-height: 1.5; margin: 0; }
+</style>
+
+<section class="selected-work-home">
+  <h2>selected work</h2>
+  <div class="section-rule"></div>
+
+  <div class="work-item">
+    <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
+    <div class="work-meta">First author · Figueroa Robotics Lab, University of Pennsylvania · Ongoing</div>
+    <p class="work-desc">Replanning for frozen generative imitation policies under unseen geometric, smoothness, and dynamics constraints.</p>
+  </div>
+
+  <div class="work-item">
+    <div class="work-title">MoodTune: AI-Driven Music Therapy Platform</div>
+    <div class="work-meta">Co-first author · APIT 2025 · Best Presentation Award</div>
+    <p class="work-desc">Multimodal emotion recognition and personalized music recommendation for therapeutic applications.</p>
+  </div>
+
+  <div class="work-item">
+    <div class="work-title">Cross-Subject EEG Fatigue Recognition</div>
+    <div class="work-meta">SAIC Volkswagen · Patent application</div>
+    <p class="work-desc">EEG-Conformer and cross-subject evaluation for robust driver-fatigue decoding.</p>
+  </div>
+
+  <div class="work-item">
+    <div class="work-title">Vision-Based Autonomous Drone Landing</div>
+    <div class="work-meta">Institute for Intelligent Autonomous Systems</div>
+    <p class="work-desc">A ROS 2 perception–control pipeline integrating YOLO-based pose estimation with closed-loop landing control.</p>
+  </div>
+</section>
