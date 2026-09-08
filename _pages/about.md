@@ -29,6 +29,12 @@ I am an M.S.E. student in Robotics at the University of Pennsylvania, where I am
 My interests lie at the intersection of **robot learning, imitation learning, and motion planning**. More broadly, I am interested in building intelligent robotic systems that are reliable and adaptable in complex environments.
 
 <style>
+.profile { width: 38% !important; }
+.profile img { width: 100%; height: 22rem; object-fit: cover; object-position: center 58%; }
+@media (max-width: 576px) {
+  .profile { width: 100% !important; }
+  .profile img { height: auto; object-fit: contain; }
+}
 .selected-work-home { clear: both; padding-top: 1.4rem; }
 .selected-work-home h2 { font-size: 1.25rem; margin-bottom: 0.25rem; }
 .selected-work-home .section-rule { border-top: 1px solid var(--global-divider-color); margin-bottom: 0.35rem; }
