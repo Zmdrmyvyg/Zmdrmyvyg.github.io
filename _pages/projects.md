@@ -3,7 +3,7 @@ layout: page
 title: selected work
 permalink: /projects/
 description: Research and engineering work in robotics and machine learning.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [selected]
 horizontal: false
