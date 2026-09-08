@@ -44,7 +44,7 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 
   <div class="work-item">
     <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
-    <div class="work-meta">First author · Figueroa Robotics Lab, University of Pennsylvania · Ongoing</div>
+    <div class="work-meta">First author · Accepted to IROS 2026 Workshop · Figueroa Robotics Lab, University of Pennsylvania</div>
     <p class="work-desc">Replanning for frozen generative imitation policies under unseen geometric, smoothness, and dynamics constraints.</p>
   </div>
 
