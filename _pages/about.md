@@ -24,17 +24,33 @@ latest_posts:
   limit: 3
 ---
 
+<div class="intro-copy" markdown="1">
+
 I am an M.S.E. student in Robotics at the University of Pennsylvania, where I am working with [Prof. Nadia Figueroa](https://nbfigueroa.github.io/) in the [Figueroa Robotics Lab](https://figueroa.seas.upenn.edu/), part of the GRASP Laboratory. Prior to Penn, I received my B.E. in Artificial Intelligence from Tongji University.
 
 My interests lie at the intersection of **robot learning, imitation learning, and motion planning**. More broadly, I am interested in building intelligent robotic systems that are reliable and adaptable in complex environments.
 
+</div>
+
 <style>
 .profile { width: 33.333% !important; }
 .profile img { width: 100%; height: auto; object-fit: contain; }
-.post article > p { font-size: 1.08rem; line-height: 1.75; }
+.intro-copy {
+  width: 61%;
+  min-height: 28.1rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-copy p { font-size: 1.04rem; line-height: 1.75; }
+.intro-copy p:last-child { margin-bottom: 0; }
 @media (max-width: 576px) {
   .profile { width: 100% !important; }
-  .post article > p { font-size: 1rem; line-height: 1.6; }
+  .intro-copy { width: 100%; min-height: auto; margin-top: 1rem; }
+  .intro-copy p { font-size: 1rem; line-height: 1.6; }
 }
 .selected-work-home { clear: both; padding-top: 1.4rem; }
 .selected-work-home h2 { font-size: 1.25rem; margin-bottom: 0.25rem; }
