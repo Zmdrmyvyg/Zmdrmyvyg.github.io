@@ -59,7 +59,7 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .selected-work-home .work-meta { color: var(--global-text-color-light); font-size: 0.78rem; line-height: 1.45; margin-bottom: 0.12rem; }
 .selected-work-home .work-desc { font-size: 0.84rem; line-height: 1.5; margin: 0; }
 .selected-work-home .work-figure { display: block; margin-top: .85rem; border: 1px solid var(--global-divider-color); border-radius: 10px; overflow: hidden; background: #fff; cursor: zoom-in; }
-.selected-work-home .work-figure img { display: block; width: 100%; height: auto; }
+.selected-work-home .work-figure img { display: block; width: 100%; height: auto; object-fit: contain; aspect-ratio: 4 / 3; }
 .selected-work-home .work-figure:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .selected-work-home .work-image-hint { margin: .4rem 0 0; color: var(--global-text-color-light); font-size: .72rem; }
 </style>
@@ -72,8 +72,8 @@ My interests lie at the intersection of **robot learning, imitation learning, an
     <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
     <div class="work-meta">First author · Accepted to IROS 2026 Workshop · Figueroa Robotics Lab, University of Pennsylvania</div>
     <p class="work-desc">Replanning for frozen generative imitation policies under unseen geometric, smoothness, and dynamics constraints.</p>
-    <a class="work-figure" href="{{ '/assets/img/replanning-overview.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
-      <img src="{{ '/assets/img/replanning-overview.webp' | relative_url }}" alt="RoboMimic method comparisons and Push-T latent MPC trajectories" width="2000" height="1400" loading="lazy" decoding="async">
+    <a class="work-figure" href="{{ '/assets/img/replanning-overview-v3.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <img src="{{ '/assets/img/replanning-overview-v3.webp' | relative_url }}" alt="RoboMimic method comparisons and Push-T latent MPC trajectories" width="2000" height="1500" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
   </div>
@@ -82,8 +82,8 @@ My interests lie at the intersection of **robot learning, imitation learning, an
     <div class="work-title">MoodTune: AI-Driven Music Therapy Platform</div>
     <div class="work-meta">Co-first author · APIT 2025 · Best Presentation Award</div>
     <p class="work-desc">Multimodal emotion recognition and personalized music recommendation for therapeutic applications.</p>
-    <a class="work-figure" href="{{ '/assets/img/moodtune-overview-v2.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
-      <img src="{{ '/assets/img/moodtune-overview-v2.webp' | relative_url }}" alt="Music recommendation pipeline, original clustering plot, application and system modules" width="2000" height="1400" loading="lazy" decoding="async">
+    <a class="work-figure" href="{{ '/assets/img/moodtune-overview-v3.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <img src="{{ '/assets/img/moodtune-overview-v3.webp' | relative_url }}" alt="Music recommendation pipeline, original clustering plot, application and system modules" width="2000" height="1500" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
   </div>
@@ -92,8 +92,8 @@ My interests lie at the intersection of **robot learning, imitation learning, an
     <div class="work-title">Cross-Subject EEG Fatigue Recognition</div>
     <div class="work-meta">SAIC Volkswagen · Patent application</div>
     <p class="work-desc">EEG-Conformer and cross-subject evaluation for robust driver-fatigue decoding.</p>
-    <a class="work-figure" href="{{ '/assets/img/eeg-fatigue-overview-v2.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
-      <img src="{{ '/assets/img/eeg-fatigue-overview-v2.webp' | relative_url }}" alt="Original BrainBeats device, acquisition hardware, live EEG and English system workflow" width="2000" height="1400" loading="lazy" decoding="async">
+    <a class="work-figure" href="{{ '/assets/img/eeg-fatigue-overview-v3.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <img src="{{ '/assets/img/eeg-fatigue-overview-v3.webp' | relative_url }}" alt="Original BrainBeats device, acquisition hardware, live EEG and English system workflow" width="2000" height="1500" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
   </div>
