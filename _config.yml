@@ -9,7 +9,8 @@ last_name: Huang
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zhengmiao (Mia) Huang is an M.S.E. student in Robotics at the University of Pennsylvania working on robot learning, imitation learning, and motion planning.footer_text: ""
+  Zhengmiao (Mia) Huang is an M.S.E. student in Robotics at the University of Pennsylvania working on robot learning, imitation learning, and motion planning.
+footer_text: ""
   
   
   
