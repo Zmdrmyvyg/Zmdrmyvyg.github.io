@@ -38,13 +38,13 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .intro-copy {
   width: 61%;
   min-height: 28.1rem;
-  padding: 0 1.15rem;
+  padding: 1rem 1.15rem;
   border: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
-.intro-copy p { margin-top: 0; font-size: 1.04rem; line-height: 1.75; }
+.intro-copy p { font-size: 1.04rem; line-height: 1.75; }
 .intro-copy p:last-child { margin-bottom: 0; }
 @media (max-width: 576px) {
   .profile { width: 100% !important; }
