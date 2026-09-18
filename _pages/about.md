@@ -54,14 +54,20 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .selected-work-home { clear: both; padding-top: 1.4rem; }
 .selected-work-home h2 { font-size: 1.25rem; margin-bottom: 0.25rem; }
 .selected-work-home .section-rule { border-top: 1px solid var(--global-divider-color); margin-bottom: 0.35rem; }
-.selected-work-home .work-item { padding: 1.15rem 0 1.4rem; border-bottom: 1px solid var(--global-divider-color); }
+.selected-work-home .work-item { display: grid; grid-template-columns: 38% minmax(0, 1fr); gap: 1.4rem; align-items: center; padding: 1.15rem 0; border-bottom: 1px solid var(--global-divider-color); }
 .selected-work-home .work-title { font-size: 0.98rem; font-weight: 650; line-height: 1.35; margin-bottom: 0.12rem; }
 .selected-work-home .work-meta { color: var(--global-text-color-light); font-size: 0.78rem; line-height: 1.45; margin-bottom: 0.12rem; }
 .selected-work-home .work-desc { font-size: 0.84rem; line-height: 1.5; margin: 0; }
-.selected-work-home .work-figure { display: block; margin-top: .85rem; border: 1px solid var(--global-divider-color); border-radius: 0; overflow: hidden; background: #fff; cursor: zoom-in; }
+.selected-work-home .work-figure { display: block; margin: 0; border: 1px solid var(--global-divider-color); border-radius: 0; overflow: hidden; background: #fff; cursor: zoom-in; }
 .selected-work-home .work-figure img { display: block; width: 100%; height: auto; object-fit: contain; aspect-ratio: 1910 / 844; }
 .selected-work-home .work-figure:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .selected-work-home .work-image-hint { margin: .4rem 0 0; color: var(--global-text-color-light); font-size: .72rem; }
+.selected-work-home .work-media, .selected-work-home .work-copy { min-width: 0; }
+.selected-work-home .work-image-hint { text-align: center; }
+@media (max-width: 575px) {
+  .selected-work-home .work-item { grid-template-columns: minmax(0, 1fr); gap: .75rem; }
+  .selected-work-home .work-media { width: 100%; max-width: 340px; }
+}
 </style>
 
 <section class="selected-work-home">
@@ -69,33 +75,45 @@ My interests lie at the intersection of **robot learning, imitation learning, an
   <div class="section-rule"></div>
 
   <div class="work-item">
-    <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
-    <div class="work-meta">First author · Accepted to IROS 2026 Workshop · Figueroa Robotics Lab, University of Pennsylvania</div>
-    <p class="work-desc">Replanning for frozen generative imitation policies under unseen geometric, smoothness, and dynamics constraints.</p>
-    <a class="work-figure" href="{{ '/assets/img/replanning-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+    <div class="work-media">
+      <a class="work-figure" href="{{ '/assets/img/replanning-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
       <img src="{{ '/assets/img/replanning-compact.webp' | relative_url }}" alt="RoboMimic method comparisons under no-jitter and boundary-box constraints at 0, 5 and 10 seconds" width="1910" height="844" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
+    </div>
+    <div class="work-copy">
+      <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
+    <div class="work-meta">First author · Accepted to IROS 2026 Workshop · Figueroa Robotics Lab, University of Pennsylvania</div>
+    <p class="work-desc">Replanning for frozen generative imitation policies under unseen geometric, smoothness, and dynamics constraints.</p>
+    </div>
   </div>
 
   <div class="work-item">
-    <div class="work-title">MoodTune: AI-Driven Music Therapy Platform</div>
-    <div class="work-meta">Co-first author · APIT 2025 · Best Presentation Award</div>
-    <p class="work-desc">Multimodal emotion recognition and personalized music recommendation for therapeutic applications.</p>
-    <a class="work-figure" href="{{ '/assets/img/moodtune-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+    <div class="work-media">
+      <a class="work-figure" href="{{ '/assets/img/moodtune-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
       <img src="{{ '/assets/img/moodtune-compact.webp' | relative_url }}" alt="Music recommendation pipeline and system modules, application interface, two- and five-cluster plots and cluster evaluation" width="1910" height="844" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
+    </div>
+    <div class="work-copy">
+      <div class="work-title">MoodTune: AI-Driven Music Therapy Platform</div>
+    <div class="work-meta">Co-first author · APIT 2025 · Best Presentation Award</div>
+    <p class="work-desc">Multimodal emotion recognition and personalized music recommendation for therapeutic applications.</p>
+    </div>
   </div>
 
   <div class="work-item">
-    <div class="work-title">Cross-Subject EEG Fatigue Recognition</div>
-    <div class="work-meta">SAIC Volkswagen · Patent application</div>
-    <p class="work-desc">EEG-Conformer and cross-subject evaluation for robust driver-fatigue decoding.</p>
-    <a class="work-figure" href="{{ '/assets/img/eeg-fatigue-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+    <div class="work-media">
+      <a class="work-figure" href="{{ '/assets/img/eeg-fatigue-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
       <img src="{{ '/assets/img/eeg-fatigue-compact.webp' | relative_url }}" alt="Original BrainBeats device, acquisition hardware, live EEG and English system workflow" width="1910" height="844" loading="lazy" decoding="async">
     </a>
     <p class="work-image-hint">Click image to enlarge</p>
+    </div>
+    <div class="work-copy">
+      <div class="work-title">Cross-Subject EEG Fatigue Recognition</div>
+    <div class="work-meta">SAIC Volkswagen · Patent application</div>
+    <p class="work-desc">EEG-Conformer and cross-subject evaluation for robust driver-fatigue decoding.</p>
+    </div>
   </div>
 
 </section>
