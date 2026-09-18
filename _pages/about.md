@@ -38,13 +38,13 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .intro-copy {
   width: 61%;
   min-height: 28.1rem;
-  padding: 1rem 1.15rem;
+  padding: 0 1.15rem;
   border: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.intro-copy p { font-size: 1.04rem; line-height: 1.75; }
+.intro-copy p { margin-top: 0; font-size: 1.04rem; line-height: 1.75; }
 .intro-copy p:last-child { margin-bottom: 0; }
 @media (max-width: 576px) {
   .profile { width: 100% !important; }
@@ -54,7 +54,7 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .selected-work-home { clear: both; padding-top: 1.4rem; }
 .selected-work-home h2 { font-size: 1.25rem; margin-bottom: 0.25rem; }
 .selected-work-home .section-rule { border-top: 1px solid var(--global-divider-color); margin-bottom: 0.35rem; }
-.selected-work-home .work-item { display: grid; grid-template-columns: 38% minmax(0, 1fr); gap: 1.4rem; align-items: center; padding: 1.15rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.selected-work-home .work-item { display: grid; grid-template-columns: 38% minmax(0, 1fr); gap: 1.4rem; align-items: start; padding: 1.15rem 0; border-bottom: 1px solid var(--global-divider-color); }
 .selected-work-home .work-title { font-size: 0.98rem; font-weight: 650; line-height: 1.35; margin-bottom: 0.12rem; }
 .selected-work-home .work-meta { color: var(--global-text-color-light); font-size: 0.78rem; line-height: 1.45; margin-bottom: 0.12rem; }
 .selected-work-home .work-desc { font-size: 0.84rem; line-height: 1.5; margin: 0; }
