@@ -58,12 +58,9 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 .selected-work-home .work-title { font-size: 0.98rem; font-weight: 650; line-height: 1.35; margin-bottom: 0.12rem; }
 .selected-work-home .work-meta { color: var(--global-text-color-light); font-size: 0.78rem; line-height: 1.45; margin-bottom: 0.12rem; }
 .selected-work-home .work-desc { font-size: 0.84rem; line-height: 1.5; margin: 0; }
-.selected-work-home .work-figure { display: block; margin: 0; border: 1px solid var(--global-divider-color); border-radius: 0; overflow: hidden; background: #fff; cursor: zoom-in; }
+.selected-work-home .work-figure { display: block; margin: 0; border: 1px solid var(--global-divider-color); border-radius: 0; overflow: hidden; background: #fff; }
 .selected-work-home .work-figure img { display: block; width: 100%; height: auto; object-fit: contain; aspect-ratio: 1910 / 844; }
-.selected-work-home .work-figure:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
-.selected-work-home .work-image-hint { margin: .4rem 0 0; color: var(--global-text-color-light); font-size: .72rem; }
 .selected-work-home .work-media, .selected-work-home .work-copy { min-width: 0; }
-.selected-work-home .work-image-hint { text-align: center; }
 @media (max-width: 575px) {
   .selected-work-home .work-item { grid-template-columns: minmax(0, 1fr); gap: .75rem; }
   .selected-work-home .work-media { width: 100%; max-width: 340px; }
@@ -76,10 +73,9 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 
   <div class="work-item">
     <div class="work-media">
-      <a class="work-figure" href="{{ '/assets/img/replanning-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <div class="work-figure">
       <img src="{{ '/assets/img/replanning-compact.webp' | relative_url }}" alt="RoboMimic method comparisons under no-jitter and boundary-box constraints at 0, 5 and 10 seconds" width="1910" height="844" loading="lazy" decoding="async">
-    </a>
-    <p class="work-image-hint">Click image to enlarge</p>
+    </div>
     </div>
     <div class="work-copy">
       <div class="work-title">Bilinear Latent Dynamics for Consequence-Preserving Replanning</div>
@@ -90,10 +86,9 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 
   <div class="work-item">
     <div class="work-media">
-      <a class="work-figure" href="{{ '/assets/img/moodtune-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <div class="work-figure">
       <img src="{{ '/assets/img/moodtune-compact.webp' | relative_url }}" alt="Music recommendation pipeline and system modules, application interface, two- and five-cluster plots and cluster evaluation" width="1910" height="844" loading="lazy" decoding="async">
-    </a>
-    <p class="work-image-hint">Click image to enlarge</p>
+    </div>
     </div>
     <div class="work-copy">
       <div class="work-title">MoodTune: AI-Driven Music Therapy Platform</div>
@@ -104,10 +99,9 @@ My interests lie at the intersection of **robot learning, imitation learning, an
 
   <div class="work-item">
     <div class="work-media">
-      <a class="work-figure" href="{{ '/assets/img/eeg-fatigue-compact.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size project overview">
+      <div class="work-figure">
       <img src="{{ '/assets/img/eeg-fatigue-compact.webp' | relative_url }}" alt="Original BrainBeats device, acquisition hardware, live EEG and English system workflow" width="1910" height="844" loading="lazy" decoding="async">
-    </a>
-    <p class="work-image-hint">Click image to enlarge</p>
+    </div>
     </div>
     <div class="work-copy">
       <div class="work-title">Cross-Subject EEG Fatigue Recognition</div>
