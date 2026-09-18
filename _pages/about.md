@@ -28,7 +28,7 @@ latest_posts:
 
 I am an M.S.E. student in Robotics at the University of Pennsylvania, where I am working with [Prof. Nadia Figueroa](https://nbfigueroa.github.io/) in the [Figueroa Robotics Lab](https://figueroa.seas.upenn.edu/), part of the [GRASP Laboratory](https://www.grasp.upenn.edu/). Prior to Penn, I received my B.E. in Artificial Intelligence from Tongji University.
 
-My interests lie at the intersection of **robot learning, imitation learning, and motion planning**. My research aims to build intelligent robotic systems that are reliable and adaptable in complex environments.
+My long-term goal is to build robots that can work alongside people in everyday human environments. My research focuses on **robot learning, imitation learning, and motion planning**, with an emphasis on adapting learned behaviors to new constraints and changing conditions.
 
 </div>
 
