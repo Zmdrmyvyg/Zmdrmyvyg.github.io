@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S.E. Robotics @ University of Pennsylvania
+subtitle: '<span lang="zh-Hans" style="display: block; font-size: 1.25rem; font-weight: 400; letter-spacing: 0.12em; margin-bottom: 0.65rem;">黄峥邈</span>M.S.E. Robotics @ University of Pennsylvania'
 
 profile:
   align: right
